@@ -1,0 +1,177 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('cup-near-cloth-twig.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+.main_div{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    font-size: 20px;
+}
+.header ul{
+    list-style-type: none;
+}
+.header ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.header ul li{
+    text-decoration: none;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.header a:hover{
+    color: blue;
+}
+
+.logo{
+    margin-right: 120px;
+    color: blue;
+   font-size: 35px;
+   margin-top: 0px;
+   margin-left: -30px;
+   font-weight: bold;
+
+}
+.Search_div{
+    position: relative;
+    display: inline;
+    margin-left: 50px;
+}
+.Search_input{
+    padding-right: 50px;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 16px;
+    width: 180px; 
+    background: transparent;
+    border: none;
+    color: white;
+    border: 1px solid darkblue;
+}
+.btn_search{
+    position: absolute;
+    top: 58%;
+    right: -2px; 
+    transform: translateY(-50%);
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.body_div{
+   display: flex;
+}
+.info{
+    color: blue;
+    width: 55%;
+    margin-top: 50px;
+}
+.info h1{
+    font-size: 90px;
+    margin-top: -59px;
+}
+.info h2{
+    font-size: 60px;
+}
+#info_h2{
+    margin-top: -59px;
+}
+.info p{
+    font-size: 20px;
+    margin-top: -29px;
+}
+.join_btn{
+    background-color: blue;
+    color: white;
+    width: 10vw;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.join_btn:hover{
+    background-color: darkslategrey;
+}
+.icon_div{
+    float: right;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 50%);
+    padding: 30px;
+    border-radius:15px;
+   width: 25%;
+   text-align: center;
+   margin-top: 30px;
+   margin-left: 218px;
+}
+.icon_div p{
+    font-size: 20px;
+    color:blue ;
+
+}
+#Sign_p{
+    margin-top: -15px;
+}
+.login{
+    background: rgba(255, 255, 255, 0.8) 50%;
+    padding: 7px;
+    border-radius: 9px;
+    width: 17.5vw;
+    margin-left: 5px;
+    color: blue;
+    font-size: 29px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+form input{
+    border: none;
+    width: 18vw;
+    height: 4vh;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid blue;
+    font-size: 15px;
+    letter-spacing: 1px;
+} 
+input::placeholder{
+    color: white;
+}
+ input:focus{
+    outline: none;
+}
+
+.login_btn{
+    background-color: blue;
+    color: white;
+    width: 18vw;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.login_btn:hover{
+    background-color: darkslategrey;
+}
+.logo_icon{
+    font-size: 25px;
+    margin: 10px;
+    color: white;
+}
+.logo_icon:hover{
+   color: blue;
+}
